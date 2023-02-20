@@ -15,7 +15,7 @@ if (((rightdg != leftdg) || (leftdg > rightdg)))
 {
 putchar(leftdg);
 putchar(rightdg);
-if (!(rihtdg == '9' && leftdg == '8'))
+if (!(rightdg == '9' && leftdg == '8'))
 {
 putchar(',');
 putchar(' ');
