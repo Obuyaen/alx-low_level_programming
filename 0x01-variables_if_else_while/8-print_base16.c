@@ -10,7 +10,7 @@ int number;
 char ch;
 for (number = 0; number <= 9 ; number++)
 {
-putchar((number % 10) + '0')
+putchar((number % 10) + '0');
 }
 for (ch = 'a' ; ch <= 'f' ; ch++)
 {
