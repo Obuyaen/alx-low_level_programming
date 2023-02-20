@@ -6,11 +6,11 @@
 */
 int main(void)
 {
-int digit;
-for (digit = 48 ; digit < 58 ; digit++)
+int number;
+for (number = 48 ; number < 58 ; number++)
 {
-putchar(digit);
-if (n != 57)
+putchar(number);
+if (number != 57)
 {
 putchar(' , ');
 putchar(' ');
@@ -18,5 +18,5 @@ putchar(' ');
 }
 putchar('\n');
 return (0);
-
+}
 }
