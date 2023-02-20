@@ -12,8 +12,7 @@ for (number = 48 ; number < 58 ; number++)
 putchar(number);
 if (number != 57)
 {
-putchar(' , ');
-putchar(' ');
+putchar(',');
 
 }
 putchar('\n');
