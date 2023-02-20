@@ -13,6 +13,8 @@ for (leftdg = '0' ; leftdg <= '9' ; leftdg++)
 {
 for (middledg = '0' ; middledg <= '9' ; middledg++)
 {
+for (rightdg = '0' ; rightdg <= '9' ; rightdg++)
+{
 if (!(rightdg == middledg) || (middledg == leftdg) || (middledg > rightdg) || (leftdg > middledg))
 {
 putchar(leftdg);
@@ -26,7 +28,7 @@ putchar(' ');
 }
 
 }
-
+}
 }
 
 }
