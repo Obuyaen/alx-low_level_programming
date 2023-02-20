@@ -18,7 +18,7 @@ if (!(rightdg == middledg) || (middledg == leftdg) || (middledg > rightdg) || (l
 putchar(leftdg);
 putchar(middledg);
 putchar(rightdg);
-if (!(rightdg == '9' ; &&leftdg == '7' ; &&middledg == '8'))
+if (!(rightdg == '9') ; &&(leftdg == '7') ; &&(middledg == '8'))
 {
 putchar(',');
 putchar(' ');
