@@ -4,7 +4,7 @@
  *@num-the integer whose absolute value is to be computed
  *Return:The absolute value of integer
 */
-int _abs(int)
+int _abs(int num)
 {
 int num;
 if (num  >= 0)
