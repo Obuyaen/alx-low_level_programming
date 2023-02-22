@@ -6,7 +6,7 @@
 void times_table(void)
 {
 int number, multy, prod;
-for (number = 0; mumber <= 9; number++)
+for (number = 0; number <= 9; number++)
 {
 _putchar('0');
 for (multy = 1; multy <= 9; multy++)
@@ -16,7 +16,7 @@ _putchar(' ');
 prod = number * multy;
 if (prod <= 9)
 {
-putchar(' ');
+_putchar(' ');
 }
 else
 {
