@@ -8,7 +8,7 @@ int main(void)
 unsigned long int a;
 unsigned long int lf = 1;
 unsigned long int rght = 2;
-unsigned long int t;
+unsigned long int t = 1000000000;
 unsigned long int lf1;
 unsigned long int lf2;
 unsigned long int rght1;
