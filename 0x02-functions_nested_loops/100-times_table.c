@@ -34,7 +34,6 @@ _putchar(k % 10 + '0');
 }
 if (j < n)
 {
-_putchar(',');
 _putchar(' ');
 }
 }
