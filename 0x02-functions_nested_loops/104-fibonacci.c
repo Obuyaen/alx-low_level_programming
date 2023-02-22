@@ -16,7 +16,7 @@ unsigned long int rght2;
 printf("%lu", lf)
 for (a = 1; a < 9 ; a++)
 {
-printf(", %lu", rght)
+printf(", %lu", rght);
 rght += lf;
 lf = rght - lf;
 }
@@ -33,7 +33,7 @@ lf1 = rght1 - lf1;
 rght2 = rght2 + lf2;
 lf2 = rght2 - lf2;
 }
-print("\n");
+printf("\n");
 return (0);
 
 }
