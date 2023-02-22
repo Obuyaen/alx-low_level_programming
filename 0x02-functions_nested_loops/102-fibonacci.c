@@ -15,7 +15,7 @@ p = fwd;
 printf("%lu", fwd);
 if (m < 49)
 {
-printf(",")
+printf(",");
 }
 m++;
 }
