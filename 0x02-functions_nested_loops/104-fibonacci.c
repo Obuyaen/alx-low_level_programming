@@ -13,7 +13,7 @@ unsigned long int lf1;
 unsigned long int lf2;
 unsigned long int rght1;
 unsigned long int rght2;
-printf("%lu", lf)
+printf("%lu", lf);
 for (a = 1; a < 9 ; a++)
 {
 printf(", %lu", rght);
