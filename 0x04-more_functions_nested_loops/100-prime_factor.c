@@ -1,5 +1,5 @@
-#include <stdio.h>
-#include <math.h>
+#include<stdio.h>
+#include<math.h>
 /**
  *main-finds and prints the largest prime factor of the number 612852475143
  *followed by a new line
@@ -8,7 +8,7 @@
 int main(void)
 {
 long int b;
-long int max;
+long int largest;
 long int i;
 b = 612852475143;
 largest = -1;
