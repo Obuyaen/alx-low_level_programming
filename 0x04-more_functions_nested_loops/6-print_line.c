@@ -14,10 +14,10 @@ else
 int m;
 for (m = 1; m <= n; m++)
 {
+{
 _putchar('_');
-}
 }
 _putchar('\n');
 }
-
-
+}
+}
