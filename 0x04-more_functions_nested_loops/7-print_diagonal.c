@@ -18,14 +18,14 @@ for (l = 0; l < n; l++)
 {
 if (l == k)
 {
-_putchar('\');
+_putchar('\\');
 }
 else if (l < k)
 {
 _putchar(' ');
 }
-_putchar('\n');
 }
+_putchar('\n');
 }
 }
 }
