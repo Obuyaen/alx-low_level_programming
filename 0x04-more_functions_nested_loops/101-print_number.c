@@ -8,13 +8,12 @@ void print_number(int n)
 unsigned int num;
 if (n < 0)
 {
-num  = -n;
+num =-n;
 _putchar('-');
 }
 else
 {
 num = n;
-
 }
 if (num / 10)
 {
