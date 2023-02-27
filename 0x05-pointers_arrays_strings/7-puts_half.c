@@ -24,7 +24,7 @@ putchar(str[b]);
 _putchar('\n');
 
 }
-
+}
 
 
 
