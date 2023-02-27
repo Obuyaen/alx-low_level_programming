@@ -14,7 +14,7 @@ int m = 0;
 int n = 0;
 while (*(src + m) != '\0')
 {
-m++
+m++;
 }
 for ( ; n < m ; n++)
 {
