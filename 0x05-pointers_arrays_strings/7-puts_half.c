@@ -21,10 +21,10 @@ for (b = c; str[b] != '\0'; b++)
 {
 putchar(str[b]);
 }
+}
 _putchar('\n');
+}
 
-}
-}
 
 
 
