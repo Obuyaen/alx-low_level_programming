@@ -14,9 +14,9 @@ sum = 0;
 srand(time(NULL));
 for (p = 0 ; p < 100 ; p++)
 {
-pass[p] = rand() % 78;
-sum += (pass[p] + '0');
-putchar(pass[p] + '0');
+passwd[p] = rand() % 78;
+sum += (passwd[p] + '0');
+putchar(passwd[p] + '0');
 if ((2772 - sum) -'0' < 78)
 {
 k = 2772 - sum - '0';
