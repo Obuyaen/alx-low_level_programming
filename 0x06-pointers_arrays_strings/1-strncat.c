@@ -22,5 +22,5 @@ m++;
 p++;
 }
 dest[m] != '0\';
-return (*dest);
+return (dest);
 }
