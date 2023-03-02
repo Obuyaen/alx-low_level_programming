@@ -17,7 +17,7 @@ m++;
 n = 0;
 while (src[n] != '\0')
 {
-dest[m] == src[n];
+dest[m] == src[m];
 m++;
 n++;
 
