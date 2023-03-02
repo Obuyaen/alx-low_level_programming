@@ -12,6 +12,7 @@ while (str[position])
 if (str[position] >= 'a' && str[position] <= 'z')
 {
 str[position] -= 32;
+}
 position++;
 
 }
