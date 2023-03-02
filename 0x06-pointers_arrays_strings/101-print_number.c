@@ -9,7 +9,8 @@ unsigned int num = n;
 if (n < 0)
 {
 _putchar('-');
-num = -num
+num = -num;
+}
 if ((num / 10) > 0)
 {
 print_number(num / 10);
