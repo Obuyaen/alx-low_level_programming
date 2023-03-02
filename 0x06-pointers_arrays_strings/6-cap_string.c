@@ -4,7 +4,7 @@
  *str:string to be capitalized
  *Return:pointer to string
 */
-char *cap_string(char *)
+char *cap_string(char *str)
 {
 int position = 0;
 while (str[position])
