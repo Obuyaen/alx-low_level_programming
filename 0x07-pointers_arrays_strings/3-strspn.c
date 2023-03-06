@@ -22,10 +22,10 @@ else if (accept[b + 1] == '\0')
 {
 return (a);
 }
+}
 s++;
 }
 return (a);
-}
 }
 
 
