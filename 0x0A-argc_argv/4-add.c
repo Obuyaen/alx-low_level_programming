@@ -3,7 +3,7 @@
 #include<ctype.h>
 #include<string.h>
 /**
- *check_num - check-string there are digit
+ *check_num-check string there are digit
  *@str:array str.
  *Return:0(success return statement)
  */
@@ -29,7 +29,7 @@ return (1);
 */
 int main(int argc, char *argv[])
 {
-int count = 0;
+int count;
 int str_to_int;
 int sum = 0;
 count = 1;
