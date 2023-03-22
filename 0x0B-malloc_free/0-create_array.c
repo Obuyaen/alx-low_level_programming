@@ -18,6 +18,6 @@ return (NULL);
 for (b = 0; b < size; b++)
 {
 string[b] = c;
-return (string);
 }
+return (string);
 }
