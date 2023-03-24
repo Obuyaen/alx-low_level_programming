@@ -38,6 +38,6 @@ for (b = 0; b < width; b++)
 {
 arr[a][b] = 0;
 }
-return (arr);
 }
+return (arr);
 }
