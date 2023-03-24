@@ -9,7 +9,7 @@
 char *_strdup(char *str)
 {
 char *string;
-int b, c;
+int b, c = 0;
 if (string == NULL)
 {
 return (NULL);
