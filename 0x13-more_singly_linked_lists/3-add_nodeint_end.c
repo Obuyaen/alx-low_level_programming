@@ -19,13 +19,12 @@ added->next = NULL;
 if (*head == NULL)
 {
 *head = added;
-}
 return (added);
+}
 while (swpvar->next)
 {
 swpvar = swpvar->next;
 swpvar->next = added;
 }
 return (added);
-
 }
