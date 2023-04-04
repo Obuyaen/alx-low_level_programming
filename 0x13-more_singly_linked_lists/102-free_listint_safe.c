@@ -6,8 +6,8 @@
 */
 size_t free_listint_safe(listint_t **h)
 {
-size_t numln = 0;
-int mns;
+size_t num = 0;
+int minus;
 listint_t *swpvar;
 if (!h || !*h)
 {
@@ -15,22 +15,22 @@ return (0);
 }
 while (*h)
 {
-mns = *h - (*h)->next;
-if (mns > 0)
+minus = *h - (*h)->next;
+if (minus > 0)
 {
 swpvar = (*h)->next;
 free(*h);
 *h = swpvar;
-numln++;
+num++;
 }
 else
 {
 free(*h);
 *h = NULL;
-numln++;
+num++;
 break;
 }
 }
 *h = NULL;
-return (numln);
+return (num);
 }
