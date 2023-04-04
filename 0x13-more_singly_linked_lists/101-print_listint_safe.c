@@ -22,7 +22,6 @@ while (namal)
 if (tnt == namal)
 {
 tnt = head;
-}
 while (tnt != namal)
 {
 num++;
@@ -39,6 +38,7 @@ return (num);
 }
 tnt = tnt->next;
 namal = (namal->next)->next;
+}
 return (0);
 }
 /**
