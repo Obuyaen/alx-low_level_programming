@@ -36,6 +36,6 @@ else
 {
 swpvar = swpvar->next;
 }
-return (NULL);
 }
+return (NULL);
 }
